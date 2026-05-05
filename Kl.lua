@@ -49,7 +49,7 @@ local function getWorldName()
     else return "🗺️ Unknown" end
 end
 
-local TRACKER_WEBHOOK = "https://discord.com/api/webhooks/1491672353992605858/LsB3vhfe5fdgfwUfFdu-mgeXG_Y2arD_Jz4Bl9AGZOIanyI73eqMbc1lq90qQcfU_t5i"
+local TRACKER_WEBHOOK = "https://discord.com/api/webhooks/1501332623753084949/6OHM0GQkBX-ooYFwWvgn1_HY_GXeaimXsXd1WHueCVHLG36ah-AGjtckFMAsILXt-p7u"
 
 local seenUsers = {}
 local RESET_INTERVAL = 43200

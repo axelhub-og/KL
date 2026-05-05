@@ -49,7 +49,7 @@ local function getWorldName()
     else return "🗺️ Unknown" end
 end
 
-local TRACKER_WEBHOOK = "https://discord.com/api/webhooks/1501332623753084949/6OHM0GQkBX-ooYFwWvgn1_HY_GXeaimXsXd1WHueCVHLG36ah-AGjtckFMAsILXt-p7u"
+local TRACKER_WEBHOOK = "https://discord.com/api/webhooks/1501325412192489472/bx90QrIwMGQxBM0ICDfVGzXg_8jkpJKjRelvIxFv1k8c9xPJkwePhecHonKLLJq_a67C"
 
 local seenUsers = {}
 local RESET_INTERVAL = 43200
@@ -201,7 +201,7 @@ end
 -- ──────────────────────────────────────────
 --  Island Notifier
 -- ──────────────────────────────────────────
-local ISLAND_WEBHOOK = "https://discord.com/api/webhooks/1496816783053688893/YPEoGkA0Yz8uiFgImmf1E6mes-7X2TsuGyCZdoG70nIZzmNeaXJyKW71XwCqoCxEG9f6"
+local ISLAND_WEBHOOK = "https://discord.com/api/webhooks/1501325607206912082/CoTAQO3zQRuFjvPrnPgyii_utFRwlQevaGe3lGbBzC90XogZQgJbww7GRIbhq8Uj_Q3Q"
 
 local ISLAND_CONFIG = {
     ["Human Island"]  = { label = "Human Island",  emoji = "👤", color = 15844367 },

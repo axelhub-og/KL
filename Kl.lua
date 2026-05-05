@@ -2,9 +2,9 @@ local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 
 local WEBHOOK_URLS = {
-    [4520749081]  = "",
-    [6381829480]  = "",
-    [15759515082] = "",
+    [4520749081]  = "https://discord.com/api/webhooks/1501323838632493062/XKrHptML-AE7QcEvb3Azj1nWdaueF8IL78ZjlKYwP9zhnCeTHCYYRj_7YCPHuuVmfbM8",
+    [6381829480]  = "https://discord.com/api/webhooks/1501325412192489472/bx90QrIwMGQxBM0ICDfVGzXg_8jkpJKjRelvIxFv1k8c9xPJkwePhecHonKLLJq_a67C",
+    [15759515082] = "https://discord.com/api/webhooks/1501325607206912082/CoTAQO3zQRuFjvPrnPgyii_utFRwlQevaGe3lGbBzC90XogZQgJbww7GRIbhq8Uj_Q3Q",
 }
 
 local WEBHOOK_URL = WEBHOOK_URLS[game.PlaceId] or WEBHOOK_URLS[4520749081]
@@ -49,7 +49,7 @@ local function getWorldName()
     else return "🗺️ Unknown" end
 end
 
-local TRACKER_WEBHOOK = "https://discord.com/api/webhooks/1501323838632493062/XKrHptML-AE7QcEvb3Azj1nWdaueF8IL78ZjlKYwP9zhnCeTHCYYRj_7YCPHuuVmfbM8"
+local TRACKER_WEBHOOK = "https://discord.com/api/webhooks/1491672353992605858/LsB3vhfe5fdgfwUfFdu-mgeXG_Y2arD_Jz4Bl9AGZOIanyI73eqMbc1lq90qQcfU_t5i"
 
 local seenUsers = {}
 local RESET_INTERVAL = 43200
@@ -201,7 +201,7 @@ end
 -- ──────────────────────────────────────────
 --  Island Notifier
 -- ──────────────────────────────────────────
-local ISLAND_WEBHOOK = "https://discord.com/api/webhooks/1501325412192489472/bx90QrIwMGQxBM0ICDfVGzXg_8jkpJKjRelvIxFv1k8c9xPJkwePhecHonKLLJq_a67C"
+local ISLAND_WEBHOOK = "https://discord.com/api/webhooks/1496816783053688893/YPEoGkA0Yz8uiFgImmf1E6mes-7X2TsuGyCZdoG70nIZzmNeaXJyKW71XwCqoCxEG9f6"
 
 local ISLAND_CONFIG = {
     ["Human Island"]  = { label = "Human Island",  emoji = "👤", color = 15844367 },
